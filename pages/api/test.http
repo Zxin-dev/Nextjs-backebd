@@ -1,0 +1,22 @@
+###
+GET http://localhost:3000/api/getAllPost
+
+###
+PUT http://localhost:3000/api/updatePost?_id=64992581471b2fd8a06660bb
+content-type:"application/json"
+
+{
+    "text":"hi"
+}
+
+###
+DELETE http://localhost:3000/api/deletePost?_id=649920a360af11ec7a2ad366
+
+###
+POST http://localhost:3000/api/createPost
+content-type:application/json
+
+{
+    "name":"Smith",
+    "text":"today is cold"
+}
